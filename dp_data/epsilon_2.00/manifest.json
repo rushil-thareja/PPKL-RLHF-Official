@@ -1,0 +1,109 @@
+{
+  "epsilon_float": 2.0,
+  "epsilon_string": "2.00",
+  "alpha": 0.8807970779778823,
+  "flip_rate": 0.11920292202211769,
+  "two_alpha_minus_one": 0.7615941559557646,
+  "dp_version": "v1",
+  "schema_version": "pair_v1",
+  "generator_commit": "unknown",
+  "created_at": "2025-09-27T10:29:28Z",
+  "global_seed": 1234,
+  "raw_source_files": {
+    "train": "data/pairs_train.jsonl",
+    "val": "data/pairs_val.jsonl",
+    "test": "data/pairs_test.jsonl"
+  },
+  "split_counts": {
+    "train": 38821,
+    "val": 2100,
+    "test": 2313
+  },
+  "flips": {
+    "count": 5002,
+    "empirical_rate": 0.11569598001572837,
+    "ci_95": [
+      0.11271495436512095,
+      0.11874529502901159
+    ]
+  },
+  "split_leakage_check": {
+    "ok": true,
+    "duplicates": 0
+  },
+  "local_dp_simulated": true,
+  "audit_sample": [
+    {
+      "pair_id": "fff471eaa438779dd7cb82f60b4a27a041f489666229e344b9d97343f61187a4",
+      "z": -1
+    },
+    {
+      "pair_id": "1b620b8712240f3d6044b1c8e98e19236c54d1b4f4ce33a58a735960b619f96d",
+      "z": 1
+    },
+    {
+      "pair_id": "a32f514e16a642fd5c2e326aac4a0590e6dae0edabdec53d9d8a6d85292b7282",
+      "z": 1
+    },
+    {
+      "pair_id": "1c434fefc6680b90e64599222fce1db0e1b6b674cf26075617acef7c558cb115",
+      "z": -1
+    },
+    {
+      "pair_id": "b383b9b55f01f5169b41d71d4f6eca16072352e44e5da8ab02593a282b565b9b",
+      "z": 1
+    },
+    {
+      "pair_id": "c6fbdd07ce4f700fac7126802703d679b9d5f5179e9d8e977882419defbecc37",
+      "z": -1
+    },
+    {
+      "pair_id": "bdfbcb04e0b3363d6a8336fd52b72e3e4ca7d80935592b91ae8a25eeb17f22c7",
+      "z": 1
+    },
+    {
+      "pair_id": "5b9f8e0b82659068bf74ae265cbd5557bcd10b5c7a6ff88da88eff9b5d2b1a8b",
+      "z": 1
+    },
+    {
+      "pair_id": "e1bbb7d13f0838eb02760220814e8f701472b6dec8f975fc39d74f7604755213",
+      "z": 1
+    },
+    {
+      "pair_id": "93e25028ff9df7cd250d32fac6d547a54462c4228bcccd44313a228c31971b01",
+      "z": 1
+    },
+    {
+      "pair_id": "87135e67ca3a3ce62ed524d570105cc08485eea21dffcc3ab064ff370708e14a",
+      "z": 1
+    },
+    {
+      "pair_id": "72aaec870074dec0d5dfa8939c907f8eb3a5a04f34dc5d230bcb8d44b82a8ae6",
+      "z": -1
+    },
+    {
+      "pair_id": "111e07b5a2ff643cfcfdffda3ddd5d4f08825f99db2740779cf3801ffe30a836",
+      "z": 1
+    },
+    {
+      "pair_id": "6bed78a4d51b27c22429042f336a22d6aaf76c2cef179e0b7dd10d44661ede50",
+      "z": 1
+    },
+    {
+      "pair_id": "bdb57e714824890e5344267a7f6cf7b13b2e73225d442ff6f079a79680487c61",
+      "z": 1
+    },
+    {
+      "pair_id": "49a353eb113e876231bb958b128e7259c247bc1bfa7be0bbe04b755151513d4c",
+      "z": 1
+    },
+    {
+      "pair_id": "f3ebce2aecab4ed50605b0729cba92cfd7a0ea80ac14eaab213cb8eb47a64d16",
+      "z": 1
+    },
+    {
+      "pair_id": "b8c74d45df4bdaeff4ac0ac5dbb5364bbf746d32aaa5fc6a688b61443b6152de",
+      "z": 1
+    }
+  ]
+}

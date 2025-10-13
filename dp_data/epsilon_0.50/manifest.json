@@ -1,0 +1,97 @@
+{
+  "epsilon_float": 0.5,
+  "epsilon_string": "0.50",
+  "alpha": 0.6224593312018546,
+  "flip_rate": 0.3775406687981454,
+  "two_alpha_minus_one": 0.2449186624037092,
+  "dp_version": "v1",
+  "schema_version": "pair_v1",
+  "generator_commit": "unknown",
+  "created_at": "2025-09-27T10:29:28Z",
+  "global_seed": 1234,
+  "raw_source_files": {
+    "train": "data/pairs_train.jsonl",
+    "val": "data/pairs_val.jsonl",
+    "test": "data/pairs_test.jsonl"
+  },
+  "split_counts": {
+    "train": 38821,
+    "val": 2100,
+    "test": 2313
+  },
+  "flips": {
+    "count": 16312,
+    "empirical_rate": 0.3772956469445344,
+    "ci_95": [
+      0.3727376963331573,
+      0.3818754016527513
+    ]
+  },
+  "split_leakage_check": {
+    "ok": true,
+    "duplicates": 0
+  },
+  "local_dp_simulated": true,
+  "audit_sample": [
+    {
+      "pair_id": "76de2bb6ee8af6f7fcb94d45e30743522f9876ba8d9e4c54844e344f8187c639",
+      "z": 1
+    },
+    {
+      "pair_id": "10e83103b15cbe72f14a71822779f96e647e9ff21c3649df53a6aedd824072e6",
+      "z": 1
+    },
+    {
+      "pair_id": "bafbcf5001b0c6c381c9df2fb12ac6881291260054f1e22d75855292376def2e",
+      "z": 1
+    },
+    {
+      "pair_id": "2066f8921ec40ac9c94dc4fc761594a45572297e52755ff2b9b53279d64442e0",
+      "z": -1
+    },
+    {
+      "pair_id": "bef35daacd62d6e053bc162932e271fe5e9764d5e70a6582387785096d499fcc",
+      "z": 1
+    },
+    {
+      "pair_id": "89cc8ac38be869790f74983796833feaf83f8e71cc86a4dc014c2318c28b1488",
+      "z": 1
+    },
+    {
+      "pair_id": "e371087745cf7fbb68bbfce90657562d86f8e46d19aceb3992364b0f35e74b4e",
+      "z": 1
+    },
+    {
+      "pair_id": "ce9b72c4924cdecfa0410007dcc355492689a972a752fa156cfb67ab9debd091",
+      "z": 1
+    },
+    {
+      "pair_id": "0d71bf2f1808fc4fea525626ea3125ea3f4aebf4b6726293236fd2bf1ae11dcb",
+      "z": 1
+    },
+    {
+      "pair_id": "e03da80e525aa02f90d0455032081967bec5e54ebd298873b87d5c0dbf3079dc",
+      "z": -1
+    },
+    {
+      "pair_id": "ff76cfd01fc2bafa15bf40ff91819fee35eba34dff6a229fbc73a31c352eb1d8",
+      "z": -1
+    },
+    {
+      "pair_id": "5934d1e1b327e2a1a6330ea2cd3e6a2411f85df15c0ac3a1f7bf43801de49755",
+      "z": 1
+    },
+    {
+      "pair_id": "7e15e3a1792c746f8fce1c1dc3e5a7d579a6fe1158b027155bf7448cdc8f2d32",
+      "z": -1
+    },
+    {
+      "pair_id": "a7dc281a3696d18d20eb7b91502fedd269ff8c0b1b6606f8b75d9fc791ae73b1",
+      "z": 1
+    },
+    {
+      "pair_id": "569725768ff30318dd9985b44ade59d3afa29a8afc7f82e65eef6c2ce833ac23",
+      "z": -1
+    }
+  ]
+}
